@@ -1,7 +1,14 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import Card from "./components/Card";
+import Header from "./components/Header";
+import Container from "react-bootstrap/Container";
 
 function App() {
-  return <Header />;
+  return (
+    <Container className="text-center mt-4 p-4">
+      <Header />
+      <Card />
+    </Container>
+  );
 }
 
 export default App;
