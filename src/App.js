@@ -1,5 +1,5 @@
-import Card from "./components/Card";
-import Header from "./components/Header";
+import Card from "./component/Card";
+import Header from "./component/Header";
 import Container from "react-bootstrap/Container";
 
 function App() {
